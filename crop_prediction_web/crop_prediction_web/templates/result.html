@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style>
+        .myDiv {
+  border: 3px solid black;
+  background-color: pink;
+  text-align: center;
+width:290px;
+height:200px;
+
+}
+.myD{
+    border: 3px solid black;
+        background-color: pink;
+        text-align: center; 
+        width: 50px;
+}
+    </style>
+</head>
+<center>
+    <h1 style="color:green"><i>Prediction</i></h1>
+
+<div class="myDiv">
+    <body>
+    <h3></h3>
+    <p>
+    <h3 style="color:MediumSeaGreen">Hello there......</h3>
+    <h3>For your soil conditions u can grow</h3>
+    <h3 style="color:red";><i>{{result}}</i></h3>
+    <h3>It can give u a better yield..</h3></p>
+    </div>
+    <br>
+    <div class="myD">
+        <a href="{% url 'home' %}">Home</a>
+    </div>
+</body>
+</center>
+</html>
